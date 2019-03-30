@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("<h3>404<h3>");
+    return res.end("404");
   });
 
   wss = new WebSocketServer({
